@@ -5,34 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS flex</title>
     <style>
+div {
+    align-items: center;
+    text-align: center;
+}
+
 .giantBox {
     border: 10px solid;
     border-color: red;
     width: 1000px; 
     height: 100px; 
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    flex-direction: column;
 }
+
 .smallerBox{
     border: 7px solid;
     border-color: red;
-    width: 700px;
+    width: 1000px;
+    flex-wrap: wrap;
     height: auto;
-    display: flex;
 }
+
 .leftmenu{
     border: 7px solid;
     border-color: red;
-    width: 700px;
+    width: 400px;
     height: auto;
     display: flex;
+    padding: 10px;
 }
+
 .right{
     border: 7px solid;
     border-color: red;
-    width: 700px;
-    height: auto;
+    width: 600px;
+    /* position: relative; */
+    display: flex;
+}
+
+.main{
+    border: 7px solid;
+    border-color: red;
     display: flex;
 }
 
@@ -40,7 +54,6 @@
     border: 7px solid;
     border-color: red;
     width: 700px;
-    height: auto;
     display: flex;
 }
 
@@ -48,7 +61,7 @@
 .footer{
     border: 7px solid;
     border-color: red;
-    width: 700px;
+    width: 1000px;
     height: auto;
     display: flex;
 }
@@ -61,7 +74,6 @@
             Header
         </div>
         <div class="smallerBox">
-            smallerbox
             <div class="leftmenu">
                 menu
             </div>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .container {
+      border: 2px solid red;
+      margin: 10px;
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .header {
+      border: 2px solid red;
+      padding: 10px;
+    }
+
+    .bottom-box {
+      display: flex;
+      border: 2px solid red;
+      margin-top: 10px;
+      padding: 10px;
+      flex: 1;
+    }
+
+    .left-menu {
+      border: 2px solid red;
+      padding: 10px;
+      flex: 1;
+    }
+
+    .right-box-container {
+      display: flex;
+      flex-direction: row;
+      flex: 2;
+      margin-top: 10px;
+    }
+
+    .smaller-left-box {
+      border: 2px solid red;
+      padding: 10px;
+      flex: 2;
+    }
+
+    .righter-box {
+      border: 2px solid red;
+      padding: 10px;
+      flex: 1;
+    }
+
+    .footer {
+      border: 2px solid red;
+      padding: 10px;
+      flex: 2;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="header">Header</div>
+    <div class="bottom-box">
+      <div class="left-menu">Left Menu</div>
+      <div class="right-box-container">
+        <div class="smaller-left-box">Smaller Left Box</div>
+        <div class="righter-box">Righter Box</div>
+        <div class="footer">Footer</div>
+      </div>
+    </div>
+    <div class="footer">Footer</div>
+  </div>
+
+</body>
+</html>
