@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS flex</title>
+    <style>
+.giantBox {
+    border: 10px solid;
+    border-color: red;
+    width: 1000px; 
+    height: 100px; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.smallerBox{
+    border: 7px solid;
+    border-color: red;
+    width: 700px;
+    height: auto;
+    display: flex;
+}
+.leftmenu{
+    border: 7px solid;
+    border-color: red;
+    width: 700px;
+    height: auto;
+    display: flex;
+}
+.right{
+    border: 7px solid;
+    border-color: red;
+    width: 700px;
+    height: auto;
+    display: flex;
+}
+
+.rightT{
+    border: 7px solid;
+    border-color: red;
+    width: 700px;
+    height: auto;
+    display: flex;
+}
+
+
+.footer{
+    border: 7px solid;
+    border-color: red;
+    width: 700px;
+    height: auto;
+    display: flex;
+}
+    </style>
+</head>
+
+<body>
+    <div class="giantBox">
+        <div class="header">
+            Header
+        </div>
+        <div class="smallerBox">
+            smallerbox
+            <div class="leftmenu">
+                menu
+            </div>
+            <div class="right">
+                <div class="main">
+                    main
+                </div>
+                <div class="rightT"></div>
+                    right
+            </div>
+            <div class="footer">
+                footer
+            </div>
+        </div>
+
+    </div>    
+</body>
+</html>

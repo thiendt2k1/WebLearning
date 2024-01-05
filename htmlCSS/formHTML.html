@@ -1,32 +1,45 @@
-
-
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Form</title>
-  <link rel="stylesheet" href="style.css">
+<head lang="en">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formCSS.css">
+    <title>Forms, Input, Validation</title>
+    <meta name="description" content="learning things about forms">
+    <meta name="keywords" content = "html forms, plain css, input Validation, backend validation">
 </head>
+
 <body>
-  <h1>Get in Touch!</h1>
-  <form action="#">
-    <div class="input-box">
-      <label for="email">Email Address:</label>
-      <input type="email" id="email" name="email" placeholder="yourname@example.com" required>
-      <span class="hit-tab">Hit Tab</span>
-    </div>
-    <div class="input-box">
-      <label for="fname">First Name:</label>
-      <input type="text" id="fname" name="fname" placeholder="First Name" required>
-      <span class="hit-tab">Hit Tab</span>
-    </div>
-    <div class="input-box">
-      <label for="lname">Last Name:</label>
-      <input type="text" id="lname" name="lname" placeholder="Last Name" required>
-      <span class="hit-tab">Hit Tab</span>
-    </div>
-    <button type="submit">Submit</button>
-  </form>
+  <div class="form">
+    <form action="something.html" method="post">
+      
+    </form>
+
+  </div>
+    <form action="/handling-pages" method="post">
+        <ul>
+            <li>
+              <label for="email" style="color: aqua; font-size: larger;">Email:</label>
+              <!-- <span class="hit-tab">Hit Tab</span> -->
+              <input type="email" id="mail"/>
+              <span class="hit-tab">Hit Tab</span>
+            </li>
+
+            <li>
+              <label for="fName" style="color: aqua; font-size: larger;">First Name:</label>
+              <input type="text" id="fname" name="fname" />
+            </li>
+
+            <li>
+              <label for="lName" style="color: aqua; font-size: larger;">Last Name:</label>
+              <input type="text" id="lname" name="lname" />
+            </li>
+
+            <li class="button">
+                <button type="submit">Submit</button>
+            </li>
+
+          </ul>
+    </form>
 </body>
 </html>
+
